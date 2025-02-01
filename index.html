@@ -36,15 +36,18 @@
     </style>
   </head>
   <body>
-    <header class="max-w-screen-2xl mx-auto lg:p-10 bg-[#EFEBE3]">
-      <nav class="flex justify-between border border-[#22c006] lg:border-none">
+    <header class="max-w-screen-2xl mx-auto lg:px-10 lg:pt-10 bg-[#EFEBE3]">
+      <nav class="flex justify-between border border-[rgb(124,179,115)] lg:border-none">
         <!-- logo section -->
         <div >
-          <img src="c2-assets/logo-header.png" alt="" class="lg:w-full w-16"/>
+          <img src="c2-assets/logo-header.png" alt="" class="hidden lg:block"/>         
+        <div>
+          <img src="c2-assets/Group.png" alt="" class="lg:hidden">
+        </div>
         </div>
         <!-- bar section -->
         <div class="lg:hidden">
-          <i class="fa-solid fa-bars"></i>
+          <i class="fa-solid fa-bars text-xl text-[#22c006]"></i>
         </div>
         <!-- links section -->
         <ul class="hidden lg:flex gap-x-10 items-center text-lg text-black">
@@ -66,13 +69,7 @@
             Register
           </button>
         </div>
-      </nav>
-      <!-- animation start -->
-      <!-- <div class="flex animate-loop-scroll">
-       <h1>Hello World</h1>
-      </div> -->
-      <!-- animation end -->
-      
+      </nav>  
       <!-- banner section -->
       <div class="lg:mt-14 mt-5 max-w-5xl mx-auto">
         <div class="p-4 lg:p-0">
@@ -83,7 +80,11 @@
           <p class="lg:w-1/2 text-center mx-auto lg:text-xl text-xs text-black mt-2 lg:mt-5">
             Shop your daily essentials at unbeatable prices. From fresh produce
             to pantry staples, we’ve got you covered every day!
-          </p>
+          </p>       
+        </div>
+        <!-- challenge part -->
+        <div class="text-[#22c006] lg:text-2xl text-xl lg:mt-5 font-bold">
+          <marquee behavior="" direction="left" scrollamount="15" >"✨ Welcome to Our Website – Stay Updated with the Latest! 🚀"</marquee>
         </div>
         <div>
           <img
@@ -301,8 +302,20 @@
             <P class="text-black text-xs lg:text-xl font-semibold">$39.99</P>
            </div>
            </div>
-         <!-- all card end -->
-        </div>
+          <div class=" lg:hidden">
+         <div class="space-x-3 flex items-center p-2 lg:px-4 bg-white rounded-lg shadow-2xl">
+          <div>
+            <img src="c2-assets/image 43.png" alt="" class="bg-[#EFEBE3] rounded-lg">
+          </div>
+           <div class="">
+            <p class="lg:text-xl text-xs"><i class="fa-solid fa-star text-yellow-300"></i> 4.5</p>
+            <h4 class="text-black text-xs lg:text-xl font-semibold">Onion 1 kG</h4>
+            <P class="text-black text-xs lg:text-xl font-semibold">$39.99</P>
+           </div>
+           </div>
+          </div>
+          <!-- all card end -->
+        </div>        
       </div>
       </div>
        </div>
@@ -356,7 +369,7 @@
     </main>
     <div class="relative  p-2 lg:p-0 h-auto">
       <section
-      class="max-w-screen-xl lg:h-[457px] h-auto bottom-0 right-0 left-0 lg:absolute lg:-top-52 -top-[500px] mx-auto bg-[#EFEBE3] grid grid-cols-1 lg:grid-cols-2 rounded-lg lg:text-left text-center "
+      class="max-w-screen-xl lg:h-[457px] h-auto  right-0 left-0 lg:absolute lg:-top-52 -top-[500px] mx-auto bg-[#EFEBE3] grid grid-cols-1 lg:grid-cols-2 rounded-lg lg:text-left text-center "
     >
       <div>
         <img src="c2-assets/vegetable-busket.png" alt="" class="lg:p-10" />
@@ -379,7 +392,7 @@
         </button>
       </div>
     </section>
-    <footer class="max-w-screen-2xl  absolute lg:static -bottom-96 px-5 lg:px-0 lg:mt-80 -z-50 lg:h-[658px] mx-auto bg-[#22c006]">
+    <footer class="max-w-screen-2xl -left-0 w-full absolute lg:static -bottom-80 px-5 lg:px-0 lg:mt-80 -z-50 lg:h-[658px] mx-auto bg-[#22c006]">
       <div class="max-w-screen-xl mx-auto flex lg:flex-row flex-col justify-between lg:items-center pt-72">
         <div class="lg:space-y-2 space-y-2">
           <img src="c2-assets/logo-footer.png" alt="" />
